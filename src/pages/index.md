@@ -41,11 +41,13 @@ title: Accueil
   <h2>Derniers articles</h2>
   <div class="grid">
     {% for post in collections.posts | slice(0,3) %}
-      <a class="card" href="{{ post.url }}">
-        <div class="kicker">{{ post.date | date: "%d/%m/%Y" }}</div>
-        <h3>{{ post.data.title }}</h3>
-        <p class="muted">{{ post.data.excerpt }}</p>
-      </a>
-    {% endfor %}
+  <a class="card" href="{{ post.url }}">
+    {% if post.date %}
+      <div class="kicker">{{ post.date }}</div>
+    {% endif %}
+    <h3>{{ post.data.title }}</h3>
+    <p class="muted">{{ post.data.excerpt }}</p>
+  </a>
+{% endfor %}
   </div>
 </section>
