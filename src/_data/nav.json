@@ -1,0 +1,9 @@
+[
+  { "label": "Accueil", "url": "/" },
+  { "label": "Profil", "url": "/profil/" },
+  { "label": "CRMEF", "url": "/crmef/" },
+  { "label": "MSP", "url": "/msp/" },
+  { "label": "Articles", "url": "/articles/" },
+  { "label": "Ressources", "url": "/ressources/" },
+  { "label": "Contact", "url": "/contact/" }
+]

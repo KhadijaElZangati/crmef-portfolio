@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Articles
+---
+
+<section class="section">
+  <h2>Articles</h2>
+  <div class="grid">
+    {% for post in collections.posts %}
+      <a class="card" href="{{ post.url }}">
+        <div class="kicker">{{ post.date | date: "%d/%m/%Y" }}</div>
+        <h3>{{ post.data.title }}</h3>
+        <p class="muted">{{ post.data.excerpt }}</p>
+      </a>
+    {% endfor %}
+  </div>
+</section>

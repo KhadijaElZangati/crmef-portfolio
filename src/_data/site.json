@@ -1,0 +1,17 @@
+{
+  "title": "Portfolio CRMEF — Stagiaire Enseignante en Informatique",
+  "tagline": "Mon parcours, mes pratiques pédagogiques, mes ressources et mes productions.",
+  "author": "Khadija el zangati",
+  "location": "CRMEF Marrakech–Safi",
+  "email": "khadijazangati@gmail.com",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/khadija-el-zangati-a19151227/",
+    "github": "https://github.com/KhadijaElZangati"
+  },
+  "cta": {
+    "primaryLabel": "Voir mes productions",
+    "primaryUrl": "/crmef/",
+    "secondaryLabel": "Télécharger mon CV",
+    "secondaryUrl": "/assets/cv.pdf"
+  }
+}

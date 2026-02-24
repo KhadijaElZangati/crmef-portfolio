@@ -1,0 +1,10 @@
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a class="brand" href="/">{{ site.title }}</a>
+    <nav class="nav">
+      {% for item in nav %}
+        <a class="nav__link" href="{{ item.url }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
